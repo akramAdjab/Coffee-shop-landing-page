@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Our Coffee Shop is since 1897, and has a lot of popularity in London, UK. Now, We have more than 6 Coffees around the world!"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script defer src="js/script.js"></script>
+
+    <title>Coffee Shop &mdash; The best coffee in the town</title>
+  </head>
+  <body>
+    <header class="header flex flex--center-v flex--center-h">
+      <nav class="main-nav">
+        <ul
+          class="main-nav-list flex flex--center-v flex--center-h flex--gap-bg"
+        >
+          <li><a class="link main-nav-link active" href="#">Home</a></li>
+          <li><a class="link main-nav-link" href="#offers">Offers</a></li>
+          <li><a class="link main-nav-link" href="#menu">Menu</a></li>
+          <li><a class="link main-nav-link" href="#location">Location</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="container grid grid--2-col .grid--center-v">
+          <div class="hero-content-box">
+            <h1 class="heading-primary">
+              All you need <span class="text-lowercase">is</span> our delicious
+              coffee
+            </h1>
+            <p class="hero-description">
+              We are the best coffee maker in the town and always ready to serve
+              you with absolutely the best quality coffee
+            </p>
+            <a href="#" class="btn btn-hero">Shop now</a>
+          </div>
+          <div class="hero-img-box">
+            <img
+              class="hero-img"
+              src="img/hero.webp"
+              alt="Pictures of our coffee shop"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- OFFERS SECTION -->
+      <section class="section section-offers" id="offers">
+        <div class="container grid grid--2-col">
+          <div class="offers-img-box">
+            <img
+              class="offers-img"
+              src="img/offers-img.webp"
+              alt="Pictures of our coffee shop"
+            />
+          </div>
+          <div class="offers-content-box">
+            <h2 class="heading-secondary">
+              Specialty coffees that makes you happy!
+            </h2>
+            <ul class="list">
+              <!-- First list -->
+              <li class="list-item">
+                <div class="item">
+                  <i class="ri-cup-line icon offers-icon"></i>
+                  <p class="offers-title">Selected coffee</p>
+                </div>
+                <p class="paragraph offers-text">
+                  we selected the best premium coffee, for a true taste.
+                </p>
+              </li>
+
+              <!-- Second list -->
+              <li class="list-item">
+                <div class="item">
+                  <i class="ri-cake-3-line icon offers-icon"></i>
+                  <p class="offers-title">Delicious cakes</p>
+                </div>
+                <p class="paragraph offers-text">
+                  Enjoy your coffee with some hot cookies
+                </p>
+              </li>
+
+              <!-- Third list -->
+              <li class="list-item">
+                <div class="item">
+                  <i class="ri-heart-3-line icon offers-icon"></i>
+                  <p class="offers-title">Enjoy at home</p>
+                </div>
+                <p class="paragraph offers-text">
+                  Enjoy the best coffee in the comfort of your home
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCTS SECTION -->
+      <section class="section section-products" id="menu">
+        <div class="container">
+          <h2 class="heading-secondary">
+            <span class="title--border">Our pr</span>oducts
+          </h2>
+          <div class="products">
+            <!-- PRODUCT 1 -->
+            <div class="product product--1">
+              <div
+                class="product--img product--img-1 bg-img"
+                role="img"
+                aria-label="Our Coffee Product Menu"
+              ></div>
+              <p class="product-name">Coffee</p>
+            </div>
+
+            <!-- PRODUCT 2 -->
+            <div class="product product--2">
+              <div
+                class="product--img product--img-2 bg-img"
+                role="img"
+                aria-label="Our Juice Product Menu"
+              ></div>
+              <p class="product-name">Juice</p>
+            </div>
+
+            <!-- PRODUCT 3 -->
+            <div class="product product--3">
+              <div
+                class="product--img product--img-3 bg-img"
+                role="img"
+                aria-label="Our Breakfast Product Menu"
+              ></div>
+              <p class="product-name">Breakfast</p>
+            </div>
+
+            <!-- PRODUCT 4 -->
+            <div class="product product--4">
+              <div
+                class="product--img product--img-4 bg-img"
+                role="img"
+                aria-label="Our Cake Product Menu"
+              ></div>
+              <p class="product-name">Cake</p>
+            </div>
+
+            <!-- PRODUCT 5 -->
+            <div class="product product--5">
+              <div
+                class="product--img product--img-5 bg-img"
+                role="img"
+                aria-label="Our Tea Product Menud"
+              ></div>
+              <p class="product-name">Tea</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LOCATION SECTION -->
+      <section class="section-location" id="location">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39729.61901175934!2d-0.14945262248702013!3d51.51135955498691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876034ce02d0135%3A0x5a9c2ff27200ba99!2sAssociation%20Coffee!5e0!3m2!1sfr!2sdz!4v1656269293080!5m2!1sfr!2sdz"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="location-box">
+          <p class="location-name">Our coffee location</p>
+          <p class="location-place">
+            301 front st w <br />
+            London, Uk
+          </p>
+          <ul class="list">
+            <ul class="list-item">
+              Mon - Fri, 6:30am - 10:30pm
+            </ul>
+            <ul class="list-item">
+              Saturday, 8:30am - 8:30pm
+            </ul>
+            <ul class="list-item">
+              Sunday, 8:30am - 11:30pm
+            </ul>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container grid-footer">
+        <!-- LOGO -->
+        <div class="footer--logo">
+          <div class="logo">
+            <div class="shapes">
+              <div class="shape shape--1"></div>
+              <div class="shape shape--2"></div>
+              <div class="shape shape--3"></div>
+            </div>
+            <p>Coffe Shop</p>
+          </div>
+          <p class="logo-text">
+            What we can do? <br />
+            Serving the best coffee for you
+          </p>
+        </div>
+
+        <!-- HYPERLINKS -->
+        <div class="footer--links">
+          <ul class="list">
+            <li class="list-item">
+              <a class="link link-footer" href="#">Home</a>
+            </li>
+            <li class="list-item">
+              <a class="link link-footer" href="#">Offers</a>
+            </li>
+            <li class="list-item">
+              <a class="link link-footer" href="#">Menu</a>
+            </li>
+            <li class="list-item">
+              <a class="link link-footer" href="#">Location</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- CONTACTS -->
+        <div class="footer--contact">
+          <p class="contact-title">Contact</p>
+          <ul class="list">
+            <li class="list-item">
+              <i class="ri-mail-fill icon-contact"></i>
+              <a class="link-footer" href="mailto:adj.perso@gmail.com"
+                >adj.perso@gmail.com</a
+              >
+            </li>
+            <li class="list-item">
+              <i class="ri-phone-fill icon-contact"></i>
+              <a class="link-footer" href="tel:415-201-6370">415-201-6370</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
